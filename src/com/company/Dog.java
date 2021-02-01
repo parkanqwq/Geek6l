@@ -39,8 +39,8 @@ public class Dog extends Animal {
 
     @Override
     public void info() {
-        System.out.print("Собака пробегает " + dogRun + "м., прыгает " + dogJump +
-                "м. и проплывет " + dogSwim + "м. : ");
+        System.out.print("Собака пробегает " + dogRun + " м., прыгает " + dogJump +
+                " м. и проплывет " + dogSwim + " м. : ");
         super.info();
     }
 

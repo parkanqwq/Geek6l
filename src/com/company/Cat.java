@@ -36,7 +36,7 @@ public class Cat extends Animal {
 
     @Override
     public void info() {
-        System.out.print("Кошка пробегает " + catRun + "м. и прыгает " + catJump + "м. : ");
+        System.out.print("Кошка пробегает " + catRun + " м. и прыгает " + catJump + " м. : ");
         super.info();
     }
 
