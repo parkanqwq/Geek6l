@@ -10,6 +10,7 @@ public class Main {
 
         cat.info();
         cat2.info();
+
         System.out.println();
         cat.jump(2);
         cat.jump(10);
