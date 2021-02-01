@@ -27,7 +27,7 @@ public class Dog extends Animal {
         if (swim <= dogSwim) {
             System.out.print("Собака ");
             super.swim(swim);
-        } else System.out.println(getName() + " собака не может проплыть " + swim + " м.!");    }
+        } else System.out.println("Собака " + getName() + " не может проплыть " + swim + " м.!");    }
 
     @Override
     public void jump(double jump) {
