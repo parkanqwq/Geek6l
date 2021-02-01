@@ -16,6 +16,7 @@ public class Main {
         cat.jump(10);
         cat.run(100);
         cat.run(300);
+        cat2.run(300);
         cat.swim(10);
         System.out.println();
         Dog dog = new Dog("Киша", "белого", 4);
